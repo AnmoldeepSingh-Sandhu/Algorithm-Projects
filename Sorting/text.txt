@@ -1,0 +1,29 @@
+1. Random string
+
+I just created a s string which have a to z characters in it which will make easy to create random string.
+Then, (in generate_sv()) I just generate randow number upto 1 (16 times). If the number is 0 add lower case character to 
+random string otherwise add uppercase character.
+
+After that I use kind of selection sort to put lowercase letters on beginning and and shift all other characters one back.
+Then just repeat this process to sort it.
+
+It run 61 times.
+
+O(n)
+
+
+
+
+2. Vectors
+ 
+I just created 3 empty Vectors in the main and then fill the v1(ascending) and v2(decending) with random numbers.
+Then fill cs vectors first 8 positions with v1 values and remaining with v2 values.
+
+Then, I use selection sort to sort cs vector because it is easy one to write due to less code and it is also easy to understand.
+
+It run 120 times.
+
+O(n^2)
+
+
+so, cs vector took more time than random_s string to solve.
